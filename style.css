@@ -1,0 +1,101 @@
+h1 { 
+
+color:black;
+margin-left:25px;
+}
+
+.Header *{
+
+border:solid;
+
+}
+
+.Menu{
+
+margin:30px;
+
+}
+
+.Header{
+
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.Item{
+
+    position:relative;
+
+}
+
+.Item p{
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size:25px; 
+    opacity:0;
+    
+}
+
+.Item:hover p{
+
+opacity:1;
+
+}
+
+.Item:hover img{
+
+opacity: 0.5;
+
+}
+
+
+a:link{
+
+    color:black;
+
+}
+
+a:visited{
+
+    color:mediumaquamarine;
+
+}
+
+.Grid{
+
+    background-color: white;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.Description{
+
+    background-color:#000000;
+    text-align:center;
+}
+
+.Footer{
+    display:flex;
+    justify-content:space-between;
+    background-color:white;
+
+}
+
+.Description h2{
+
+color:white;
+
+}
+
+.Description p{
+
+    color:white;
+    
+    }
+
